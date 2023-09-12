@@ -1,0 +1,51 @@
+[
+    {
+        "img": "../Group14210.png",
+        "company": "Pegipegi",
+        "rating": 4.1,
+        "review": 50
+     
+    },
+    {
+        "img": "../Group14210(2).png",
+        "company": "Kompas Group",
+        "rating": 4.1,
+        "review": 50
+    },
+    {
+        "img": "../Group14210(3).png",
+        "company": "Group Avows",
+        "rating": 4.1,
+        "review": 50
+    },
+    {
+        "img": "../Group14210(4).png",
+        "company": "Lalamove",
+        "rating": 4.1,
+        "review": 50
+    },
+    {
+        "img": "../Group14210(5).png",
+        "company": "PT Midas Daya ",
+        "rating": 4.1,
+        "review": 50
+    },
+    {
+        "img": "../Group14210(6).png",
+        "company": "Siemens",
+        "rating": 4.1,
+        "review": 50
+    },
+    {
+        "img": "../Group14210(7).png",
+        "company": "eFishery",
+        "rating": 4.1,
+        "review": 50
+    },
+    {
+        "img": "../Group14210(8).png",
+        "company": "Cermati",
+        "rating": 4.1,
+        "review": 50
+    }
+ ]

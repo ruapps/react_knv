@@ -1,38 +1,330 @@
-.App {
-  text-align: center;
+
+h2{ 
+  font-size: 30px;
+  line-height: 46px;
+  font-weight: 700;
+ }
+
+/* navbar css start */
+
+.header{
+  background: url(../public/Group14477.png) no-repeat center/cover;
+  padding: 20px 0 50px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.menu a{
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 600;
+  color: var(--black);
+  margin: 0 3px;
+  padding: 0 7px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.menu a.active{
+  color: var(--blue-sky);
+}
+
+.menu a:nth-child(4){
+  border-right: 1px solid #000;
+  padding-right: 20px;
+}
+
+.menu select{
+  border-radius: 6px;
+  border: 1px solid #C2D5E5;
+  background: transparent;
+  font-size: 14px;
+  font-family: 21px;
+}
+
+/* hero section css start */
+
+.hero{
+  font-size: 14px;
+  line-height: 21px;
+  padding: 120px 0
+}
+
+.hero h1{
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 700;
+}
+
+.hero p{
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--gray-light);
+}
+
+.hero form{
+  border-radius: 10px;
+  background-color: #fff;
+  filter: drop-shadow(#0000001A 0px 10px 30px);
+  padding: 10px;
+}
+
+.hero form input{
+ outline: none;
+ border: none;
+ width: 50%;
+ color: var(--gray-light);
+ font-size: 14px;
+}
+
+.hero form div input:first-child{
+ border-right: 1px solid var(--gray-light);
+}
+
+.hero form input::placeholder{
+ color: var(--gray-light);
+}
+
+.hero h3{
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--black-light);
+}
+
+.hero .tags span{
+  background-color: var(--blue-gray);
+  color: var(--blue-sky);
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
+.hero .search_bar .hstack img:last-child{
+  padding: 6px;
+  border-radius: 6px;
+  background-color: #0963C2;
+}
+
+.hero .search_bar .hstack{
+  width: 50%;
+}
+
+/* category css start */
+
+.category{
+  padding-bottom: 50px;
+}
+
+
+.category h2{ 
+  font-size: 30px;
+  line-height: 46px;
+  font-weight: 700;
+  color: var(--black);
+ }
+
+ .category a.all{
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--blue-sky);
+  font-weight: 500;
+ }
+
+ .category .hstack{
+  border: 1px solid #E2DEDE;
+  border-radius: 10px;
+  padding: 20px 0;
+ }
+
+ .category .hstack p{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--black-light);
+ }
+
+ .category .hstack p:last-child{
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 500;
+  color: var(--gray-dark);
+ }
+
+/* features css start */
+
+.feature{
+    background-color: #E6F0F9;
+    padding: 50px 0;
+}
+
+.feature .feature_cart{
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.feature small{
+  font-size: 12px;
+}
+
+.feature .job_title{
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.feature .company{
+  font-size: 10px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #444;
+}
+
+.feature .ratings{
+  line-height: 36px;
+  color: var(--gray-light);
+}
+
+.feature .loc_exp{
+  margin-top: -10px;
+}
+
+.feature .loc_exp small{
+  line-height: 36px;
+  color: var(--gray-semi-light);
+}
+
+.feature .time{
+  font-size: 10px;
+  color: var(--gray-light);
+}
+
+.feature .details li small{
+    color: var(--gray-light);
+    line-height: 18px;
+}
+
+.feature ol{
+  list-style: disc;
+  padding-left: 20px !important;
+}
+
+.feature button{
+  font-size: 14px;
+  width: 150px;
+  border: none;
+  padding: 6px 10px;
+  background-color: var(--blue-sky);
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+/* companies css start */
+
+.companies{
+  padding: 50px 0;
+}
+
+.companies .hstack{
+  border: 1px solid #E2DEDE;
+  border-radius: 10px;
+  padding: 20px 0;
+} 
+
+
+.companies .comp_name{
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--black-light);
+  line-height: 18px;
+}
+
+.companies .comp_rating{
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--gray-semi-light);
+}
+
+.companies .comp_spons p{
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.companies .comp_spons p span{
+  color: var(--blue-sky);
+}
+
+.offcanvas-lg{
+  background-color: #E6F0F9;
+}
+
+@media  screen and (max-width: 1024px) {
+      
+  .hero{ padding: 50px 0; }
+  .hero .tags span{
+    margin-top: 8px;
   }
+      
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media  screen and (max-width: 992px) {
+  .hero form input{
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .hero form div input:first-child{
+    border-right: none;
+    border-bottom: 1px solid var(--gray-light);
   }
+
+  .hero .search_bar .hstack{
+    width: 100%;
+  }
+
+}
+
+@media  screen and (max-width: 768px) {
+      
+  header button img{
+    width: 40px;
+  }
+  .hero h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+}
+
+@media  screen and (max-width: 576px) {
+  
+
+  .hero h1 {
+      font-size: 30px;
+      line-height: 35px;
+  }
+
+.hero p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.hero form div input:first-child{
+  padding-bottom: 10px;
+}
+
+.hero form div div{
+  padding-top: 10px;
+}
+
+.menu a:nth-child(4){
+  border-right: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 15px;
+}
+
+.menu select{
+  width: 50px;
+}
+
+.offcanvas-lg a{ padding-left: 0; }
+
 }
